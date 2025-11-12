@@ -20,10 +20,9 @@ Before you begin, place your input data in /input, formatted accordingly. Column
 
 Running: 
 
-1) Clone the directory to your local machine
+1) Clone the project to your local machine
 
-2) Activate the environment epilepsy_nlp found in /envs from an anaconda prompt (or terimal on mac). make sure you have navigated this terminal to the directory where you cloned these codes
-    - If inputs were formatted properly and placed in the correct directories, you should not need to modify any lines of code
+2) Create a conda environment using the Requirements.txt included in the current directory.
 
 3) python main.py
 
