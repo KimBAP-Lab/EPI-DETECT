@@ -32,7 +32,7 @@ def plot(**kwargs):
             output_path = value
 
     if not os.path.isdir(output_path):
-        os.mkdirs(output_path) # set up folder for figures if it doesn't exist
+        os.mkdir(output_path) # set up folder for figures if it doesn't exist
         
     # set up time bins. we want 1 week intervals up to two years
     blockStarts, blockEnds, blockLabels = trend_helper.makeBins(window='week',nYears=2)
